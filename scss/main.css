@@ -1,0 +1,243 @@
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.container header {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto 1fr;
+      grid-template-columns: auto 1fr;
+}
+
+.container header nav {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-column-align: end;
+      justify-self: end;
+}
+
+.container header nav .menu {
+  list-style-type: none;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (auto)[4];
+      grid-template-columns: repeat(4, auto);
+  -webkit-column-gap: 30px;
+          column-gap: 30px;
+}
+
+.container header nav .menu a {
+  font-family: Inter, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+  color: #ABAEB5;
+}
+
+.container header nav .menu a:hover {
+  color: black;
+  text-decoration: underline;
+  -webkit-text-decoration-color: #F6A410;
+          text-decoration-color: #F6A410;
+}
+
+.container .main-introduce {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr auto;
+      grid-template-columns: 1fr auto;
+}
+
+.container .main-introduce .main-introduce-info {
+  text-align: left;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: (auto)[3];
+      grid-template-rows: repeat(3, auto);
+}
+
+.container .main-introduce .main-introduce-info .introduce-title {
+  font-family: "Playfair Display", serif;
+  font-size: 70px;
+  font-weight: 700;
+  color: #202336;
+}
+
+.container .main-introduce .main-introduce-info .introduce-desc {
+  font-family: Inter, sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: #202336;
+}
+
+.container .main-introduce .main-introduce-info .introduce-link {
+  font-family: "Playfair Display", serif;
+  font-size: 26px;
+  font-weight: 700;
+  text-decoration: none;
+  color: white;
+  background: #F6A410;
+  width: 160px;
+  height: 45px;
+  border-radius: 8px;
+  text-align: center;
+  -webkit-box-shadow: 5px 5px 5px #ABAEB5;
+          box-shadow: 5px 5px 5px #ABAEB5;
+  padding-top: 7px;
+}
+
+.container .main-subtitle {
+  font-family: "Playfair Display", serif;
+  font-size: 36px;
+  font-weight: 700;
+  color: black;
+}
+
+.container .web-studio-info {
+  font-family: Inter, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: #333333;
+  line-height: 30px;
+}
+
+.container .web-studio-img {
+  display: block;
+  margin: 0 auto;
+  margin-top: -25px;
+}
+
+.container .web-studio-history {
+  display: -ms-grid;
+  display: grid;
+  padding-bottom: 100px;
+}
+
+.container .web-studio-history .main-subtitle {
+  font-family: "Playfair Display", serif;
+  font-size: 36px;
+  font-weight: 700;
+  color: black;
+}
+
+.container .web-studio-history .history-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50px auto;
+      grid-template-columns: 50px auto;
+}
+
+.container .web-studio-history .history-container .history-first-site .history-title {
+  font-family: Inter, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: #333333;
+}
+
+.container .web-studio-history .history-container .history-first-site .history-text {
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #333333;
+}
+
+.container .web-studio-history .history-container .web-studio-develop {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+}
+
+.container .web-studio-history .history-container .web-studio-develop .history-title {
+  font-family: Inter, sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: #333333;
+}
+
+.container .web-studio-history .history-container .web-studio-develop .history-text {
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #333333;
+}
+
+.container .web-studio-history .history-container .web-studio-develop .develop-container {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  width: 610px;
+}
+
+.container .web-studio-history .history-container .first-web-studio .history-title {
+  font-family: Inter, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: #333333;
+}
+
+.container .web-studio-history .history-container .first-web-studio .history-text {
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #333333;
+}
+
+.container footer {
+  padding: 50px 110px;
+  background: #DAF1E982;
+}
+
+.container footer .footer-info {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (auto)[2];
+      grid-template-columns: repeat(2, auto);
+}
+
+.container footer .footer-info a {
+  font-family: "Playfair Display", serif;
+  font-size: 19px;
+  font-weight: 400;
+  text-decoration: none;
+  color: black;
+}
+
+.container footer .footer-info p {
+  font-family: Mulish, sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  color: #717171;
+}
+
+.container footer .footer-info .footer-menu {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (170px)[4];
+      grid-template-columns: repeat(4, 170px);
+  -webkit-column-gap: 30px;
+          column-gap: 30px;
+}
+
+.container footer .footer-info .logo-container {
+  width: 150px;
+}
+
+.container footer .footer-social {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (auto)[5];
+      grid-template-columns: repeat(5, auto);
+  border-top: 1px solid #C1C1C1;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-column-gap: 30px;
+          column-gap: 30px;
+  padding-top: 30px;
+}
+/*# sourceMappingURL=main.css.map */
